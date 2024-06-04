@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 20px;
         }
         h1 {
-            color: #333;
             text-align: center;
         }
         form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            max-width: 500px;
+            max-width: 300px;
             margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
         label {
             display: block;
@@ -53,7 +54,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form>
+    <form action="index.php" method="post">
         <label for="username">Usuario:</label>
         <input type="text" id="username" name="username" required>
         <label for="password">Contraseña:</label>
@@ -62,3 +63,4 @@
     </form>
 </body>
 </html>
+
